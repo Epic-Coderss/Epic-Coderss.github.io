@@ -1,0 +1,19 @@
+{
+  "name": "epic-coders",
+  "version": "0.0.1",
+  "description": "Teach coding",
+  "main": "n/a",
+  "scripts": {
+    "test": "n/a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Epic-Coderss/Epic-Coderss.github.io.git"
+  },
+  "author": "Shriraj Dash, Nidhi Riju, Pranav Kethireddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Epic-Coderss/Epic-Coderss.github.io/issues"
+  },
+  "homepage": "https://github.com/Epic-Coderss/Epic-Coderss.github.io#readme"
+}
