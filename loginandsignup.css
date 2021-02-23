@@ -57,6 +57,8 @@
 
 #logreg-forms button[type="submit"]{ margin-top:10px; }
 
+#logreg-forms .google-btn-signup{ margin-left: 500px; }
+
 #logreg-forms .google-btn{ background-color: #DF4B3B; margin-left: 100px; }
 
 #logreg-forms .form-reset, #logreg-forms .form-signup{ display: none; }
