@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Epic-Coderss/Epic-Coderss.github.io#readme",
   "dependencies": {
-    "@google-pay/button-element": "^2.2.1",
-    "firebase": "^8.2.9"
+    "firebase": "^8.2.9",
+    "stripe": "^8.137.0"
   }
 }
