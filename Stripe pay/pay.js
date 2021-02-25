@@ -2,7 +2,7 @@ const stripe = require('stripe')('sk_test_51IOWxzGWj8A1Mt9ysSad6LRcbJ1jaEsIWXr6T
 const express = require('express');
 const app = express();
 app.use(express.static('.'));
-const YOUR_DOMAIN = 'http://localhost:4242';
+const YOUR_DOMAIN = 'http://localhost:63342';
 app.post('/create-checkout-session', async (req, res) => {
     const session = await stripe.checkout.sessions.create({
         payment_method_types: ['card'],
@@ -25,4 +25,4 @@ app.post('/create-checkout-session', async (req, res) => {
     });
     res.json({ id: session.id });
 });
-app.listen(4242, () => console.log('Running on port 4242'));
+app.listen(4242, () => console.log('Running on port 63342'));
